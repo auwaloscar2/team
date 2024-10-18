@@ -1,0 +1,250 @@
+*{
+    margin:0px;
+    padding:0px;
+    color:#fff;
+}
+.navbar{
+    width:1500px;
+    height:70px;
+    margin:auto;
+    font-family: Cooper Black;
+}
+
+.menu{
+    width:400px;
+    float:left;
+    height:70px;
+}
+
+ul{
+    display: flex;
+    float:left;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration:none;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition:0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color:#ff7200;
+}
+
+
+
+.main{
+    width:100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)20%,rgba(0,0,0,0.5)20%),url(desert.jpg);
+    background-position: center;
+    background-size: cover;
+    height:109vh;
+}
+
+.logo{
+    color:#ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float:left;
+    padding-top: 10px;
+}
+
+.form{
+    width:250px;
+    height:380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position:absolute;
+    top:9px;
+    left:400px;
+    border-radius: 10px;
+    padding:25px;
+}
+
+.form h2{
+    width:220px;
+    font-family: sans-serif;
+    text-align:center;
+    color:#ff7200;
+    font-size:27px;
+    background-color:#fff;
+    border-radius:10px;
+    margin:2px;
+    padding:8px;
+}
+
+.form input{
+    width:240px;
+    height:35px;
+    background:transparent;
+    border-bottom:1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color:#fff;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form:focus{
+    outline:none;
+}
+
+::placeholder{
+    color:#fff;
+    font-family:Arial;
+}
+
+.btn{
+    width:240px;
+    height:40px;
+    background-color: #ff7200;
+    border: 2px  solid#ff7200;
+    margin-top:13px;
+    color:#fff;
+    font-size: 15px;
+    border: none;
+    margin-top: 30px;
+    font-size:18px;
+    border-radius: 10px;
+    cursor:pointer;
+    color:#fff;
+}
+
+input{
+    width:240px;
+    height:65px;
+}
+
+.btn{
+    width:80px;
+    height:40px;
+    background-color: #ff7200;
+    border: 2px  solid#ff7200;
+    margin-top:13px;
+    color:#fff;
+    font-size: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline:none;
+}
+.cn{
+    width:160px;
+    height:40px;
+    background:#ff7200;
+    border: none;
+    margin-bottom:10px;
+    margin-left: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+ .cn a{
+    text-decoration-line:none;
+    color:#000;
+    transition: .3 ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color:#ff7200;
+}
+
+.btn  a{
+    color:#000;
+    text-decoration: none;
+    font-weight: bold;
+}
+input{
+    color:#000;
+}
+input [type]{
+    width: 120px;
+    height: 90px;
+}
+
+.form .link{
+    font-family:Arial;
+    font-size: 17px;
+    padding-top:20px;
+    text-align:center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color:#ff7200;
+}
+
+a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: #ff7200;
+}
+a:hover{
+    color: #ff7200;
+}
+
+.btn:focus{
+    outline:none;
+}
+
+a{
+    color: pink;
+}
+.h ::placeholder{
+   letter-spacing:2px;
+   font-family:Cooper; 
+
+}
+
+.file{
+    width:240px;
+    height:90px;
+    background:transparent;
+    border-bottom:1px solid #ff7200;
+    border-top: 1px solid #ff7200;
+    border-right: 1px solid #ff7200;
+    border-left: 1px solid #ff7200;
+    color:#fff;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    font-family: sans-serif;
+    margin-left:-490px;
+
+}
+
+#profile-container{
+    width: 150px;
+    height: 150px;
+    overflow:hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    border-radius:50%;
+}
+
+#profile-container img{
+    width: 150px;
+    height: 150px;
+}
